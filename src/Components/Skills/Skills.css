@@ -1,0 +1,139 @@
+.service {
+    background-color: #272935;
+    height: 100vh;
+	
+}
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400';
+
+h1.heading{
+    font-size:60px ;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+p.heading.p__color{
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.SkillsContainer {
+  
+    font-family: "Open Sans", sans-serif;
+    padding-top: 50px;
+    width: 100%;
+    min-height: 100%;
+    font-size: 16px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 80px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .content {
+    
+    position: relative;
+  }
+  
+  .card {
+    text-align: center;
+    background-color:#272935 ;
+    width: 250px;
+    /* min-height: 100px; */
+    height: 250px;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .info {
+   
+    flex-direction: row;
+    z-index: 2;
+    position: relative;
+    
+  }
+  .info img {
+    /* border-radius: 50%; */
+    /* width: 300px; */
+    height: 80px;
+  }
+  
+  .info .backEnd{
+    padding-left: 10px;
+  }
+  
+  .info .frontEnd{
+    padding-left: 10px;
+  }
+  
+  
+  .info .information {
+    padding: 0px 20px;
+  }
+  .info .information h1 {
+    font-size: 1.8em;
+    text-align: center;
+    
+  }
+  .info .information h3 {
+    font-size: 1.2em;
+    color: #009688;
+    font-style: italic;
+  }
+  .info .information p.bio {
+    padding: 10px 0px;
+    color: #5A5A5A;
+    line-height: 1.2;
+    font-style: initial;
+  }
+
+  @media only screen and (max-width: 768px){
+    .service .card {
+      text-align: center;
+      font-size: 10px;
+      background-color:#272935 ;
+      width: 150px;
+      /* min-height: 100px; */
+      height: 250px;
+      padding: 20px;
+      border-radius: 3px;
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+      position: relative;
+      overflow: hidden;
+    }
+      
+
+      .info img {
+        height: 50px;
+      }
+
+      .SkillsContainer {
+  
+        font-family: "Open Sans", sans-serif;
+        padding-top: 50px;
+        width: 100%;
+        min-height: 100%;
+        font-size: 16px;
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding-right: 80px;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 16px;
+        
+      }
+      .service {
+        background-color: #272935;
+        height: 100%;
+    }
+  }
+

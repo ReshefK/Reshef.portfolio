@@ -1,0 +1,263 @@
+.contact {
+    background-color: #272935;
+    height: 100%;
+    scroll-behavior: smooth;
+  
+}
+
+.contact .row{
+
+  padding-top: 70px;
+
+}
+
+.contact__box{
+    padding-right: 500px;
+    width: 100%;
+}
+
+.input__box {
+    width: 800px;
+    
+}
+
+.hire{
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  
+}
+
+.title{
+  color: #D1D3D4;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+}
+
+
+
+.link {
+    color: #fff;
+    font-family: "SuisseIntl-Regular";
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1;
+    text-decoration: underline;
+}
+
+.link:hover.link {
+  /* border: 5px solid #395693; */
+  /* box-shadow: 0 0 15px #3b5998; */
+  /* background-color: #395693; */
+  transition: all 0.5s ease;
+  color: #FF3257;
+}
+
+
+
+a {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    display: inline-block;
+    /* padding: 15px 20px; */
+    position: relative;
+  }
+
+  /* create underline */
+
+  a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    background: #775548;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+
+
+  /* social media css */
+
+  .wrapper ul li {
+    width: 55px;
+    height: 55px;
+    line-height: 60px;
+    margin: 0 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 3px solid #D8E2DC;
+    float: left;
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper ul li .fa {
+    color: #D8E2DC;
+    /* margin-top: 20px; */
+    transition: all 0.5s ease;
+  }
+
+  .phone {
+      color:white;
+      font-size: 12px;
+      
+
+  }
+
+
+  .wrapper ul li:hover.facebook {
+    border: 5px solid #395693;
+    box-shadow: 0 0 15px #3b5998;
+    background-color: #395693;
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper ul li:hover .fa-facebook {
+    color: white;
+    text-shadow: 0 0 15px #395693;
+    transition: all 0.5s ease;
+  }
+
+  .wrapper ul li:hover.twitter {
+    border: 5px solid #2aa3d9;
+    box-shadow: 0 0 15px #2aa3d9;
+    background-color: #2aa3d9;
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper ul li:hover .fa-twitter {
+    color: white;
+    text-shadow: 0 0 15px #2aa3d9;
+    transition: all 0.5s ease;
+  }
+  
+
+  .wrapper ul li:hover.linkedin {
+    border: 5px solid #0077b5;
+    box-shadow: 0 0 15px white;
+    background-color: #0077b5;
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper ul li:hover .fa-linkedin {
+    color: white;
+    text-shadow: 0 0 15px #0077b5;
+    transition: all 0.5s ease;
+  }
+  
+  
+  .wrapper ul li:hover.github {
+    border: 5px solid #04204E;
+    box-shadow: 0 0 15px #04204E;
+    background-color: #04204E;
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper ul li:hover .fa-github {
+    color: white;
+    text-shadow: 0 0 15px #04204E;
+    transition: all 0.5s ease;
+  }
+  
+  
+  @media screen and (max-width: 640px){
+    .wrapper {
+        width: 350px;
+    }
+    .wrapper ul li{
+        margin-top: 10px;
+    }
+    .wrapper ul li.google{
+        margin-left: 60px;
+    }
+  }
+  
+  
+  @media screen and (max-width: 340px){
+    .wrapper {
+        width: 150px;
+    }
+    .wrapper ul li{
+        margin:15px;
+    }
+    .wrapper ul li.google{
+        margin-left: 15px;
+    }
+  }
+
+
+    /* .upToTopBtn{
+      height: 40px;
+      width: 40px;
+      position: fixed;
+      bottom: 3%;
+      right: 1%;
+      background: white;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+  } */
+
+  /* arrow css */
+
+    .upToTopBtn{
+      position: fixed;
+      bottom: 3%;
+      right: 1%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+  }
+
+ 
+
+
+  
+@keyframes up {
+  0% {
+    transform: translate(-50%, 120%);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -120%);
+    opacity: 0;
+  }
+}
+.arrowUp {
+  width: 40px;
+  height: 40px;
+  border-width: 0;
+  /* background: rgba(0, 0, 0, 0.65); */
+  background-color: #775548;
+  border-radius: 50%;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+}
+.arrowUp svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 24px;
+  height: 24px;
+  animation: up 1.6s ease-in-out infinite;
+}
+.arrowUp svg path {
+  fill: #fff;
+}
+
+  
