@@ -1,8 +1,9 @@
 {
-  "homepage": "https://reshefk.github.io/reshefk.github.io",
+  
   "name": "reshefk.github.io",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://reshefk.github.io/reshefk.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
