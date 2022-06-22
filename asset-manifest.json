@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Reshef.portfolio/static/css/main.0051402d.chunk.css",
+    "main.js": "/Reshef.portfolio/static/js/main.40f003ca.chunk.js",
+    "main.js.map": "/Reshef.portfolio/static/js/main.40f003ca.chunk.js.map",
+    "runtime-main.js": "/Reshef.portfolio/static/js/runtime-main.b94d1206.js",
+    "runtime-main.js.map": "/Reshef.portfolio/static/js/runtime-main.b94d1206.js.map",
+    "static/js/2.5c54b528.chunk.js": "/Reshef.portfolio/static/js/2.5c54b528.chunk.js",
+    "static/js/2.5c54b528.chunk.js.map": "/Reshef.portfolio/static/js/2.5c54b528.chunk.js.map",
+    "static/js/3.71d45ef3.chunk.js": "/Reshef.portfolio/static/js/3.71d45ef3.chunk.js",
+    "static/js/3.71d45ef3.chunk.js.map": "/Reshef.portfolio/static/js/3.71d45ef3.chunk.js.map",
+    "index.html": "/Reshef.portfolio/index.html",
+    "static/css/main.0051402d.chunk.css.map": "/Reshef.portfolio/static/css/main.0051402d.chunk.css.map",
+    "static/js/2.5c54b528.chunk.js.LICENSE.txt": "/Reshef.portfolio/static/js/2.5c54b528.chunk.js.LICENSE.txt",
+    "static/media/ballon.8c87ed4b.jpg": "/Reshef.portfolio/static/media/ballon.8c87ed4b.jpg",
+    "static/media/canyon1.333b1b16.jpg": "/Reshef.portfolio/static/media/canyon1.333b1b16.jpg",
+    "static/media/dataBase.92e08276.png": "/Reshef.portfolio/static/media/dataBase.92e08276.png",
+    "static/media/docker.28754e52.png": "/Reshef.portfolio/static/media/docker.28754e52.png",
+    "static/media/java2.131ab526.png": "/Reshef.portfolio/static/media/java2.131ab526.png",
+    "static/media/lily.69d647e0.jpg": "/Reshef.portfolio/static/media/lily.69d647e0.jpg",
+    "static/media/mecircle.f8d87ff9.png": "/Reshef.portfolio/static/media/mecircle.f8d87ff9.png",
+    "static/media/react.e3c826aa.png": "/Reshef.portfolio/static/media/react.e3c826aa.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b94d1206.js",
+    "static/js/2.5c54b528.chunk.js",
+    "static/css/main.0051402d.chunk.css",
+    "static/js/main.40f003ca.chunk.js"
+  ]
+}
