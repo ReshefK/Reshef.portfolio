@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Reshef.portfolio/static/css/main.0051402d.chunk.css",
-    "main.js": "/Reshef.portfolio/static/js/main.40f003ca.chunk.js",
-    "main.js.map": "/Reshef.portfolio/static/js/main.40f003ca.chunk.js.map",
+    "main.js": "/Reshef.portfolio/static/js/main.82fb9f03.chunk.js",
+    "main.js.map": "/Reshef.portfolio/static/js/main.82fb9f03.chunk.js.map",
     "runtime-main.js": "/Reshef.portfolio/static/js/runtime-main.b94d1206.js",
     "runtime-main.js.map": "/Reshef.portfolio/static/js/runtime-main.b94d1206.js.map",
     "static/js/2.5c54b528.chunk.js": "/Reshef.portfolio/static/js/2.5c54b528.chunk.js",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.b94d1206.js",
     "static/js/2.5c54b528.chunk.js",
     "static/css/main.0051402d.chunk.css",
-    "static/js/main.40f003ca.chunk.js"
+    "static/js/main.82fb9f03.chunk.js"
   ]
 }
