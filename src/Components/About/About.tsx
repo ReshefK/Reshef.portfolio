@@ -26,7 +26,7 @@ function About(): JSX.Element {
                             </p>
                             <div className="about__button d__flex align__items__center">
                         
-                                <a href="#" className="button">Download CV</a>
+                                <a href="https://github.com/ReshefK/resume/raw/main/Reshef%20Kama%20CV.pdf" className="button">Download CV</a>
 
 
                             </div>
